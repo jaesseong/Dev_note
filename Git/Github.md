@@ -6,7 +6,7 @@
 
 깃허브<sup>Github</sup>는 분산 버전 컨트롤 소프트웨어 깃<sup>Git</sup>을 기반으로 소스 코드를 호스팅하고, 협업 지원 기능들을 지원하는 마이크로소프트<sup>Microsoft</sup>의 웹서비스
 
-<p align="center"> 
+<p align="center">
     <img src="image/github-seeklogo.com.svg" alt="Git logo">
 </p>
 
@@ -27,14 +27,14 @@
 
 1. [깃<sup>Git</sup> 설치](https://git-scm.com/) + [깃허브<sup>Github</sup> 회원가입](https://github.com/)
 
-2. 로그인 후 레파지토리<sup>repository</sup>(원격 저장소<sup>Remote Repository</sup>) 만들기 
+2. 로그인 후 레파지토리<sup>repository</sup>(원격 저장소<sup>Remote Repository</sup>) 만들기
    1. 홈에서 오른 쪽 상단 자신의 프로필 클릭 </br><p align="center"> ![github_tutorial_001](./image/github_tutorial_001.PNG) </p>
    2. your repositories 클릭 <br/><p align="center"> ![github_tutorial_002](./image/github_tutorial_002.PNG) </p>
    3. New 클릭</br><p align="center"> ![github_tutorial_003](./image/github_tutorial_003.PNG) </p>
    4. 레파지토리 이름 및 설명 작성</br><p align="center"> ![github_tutorial_004](./image/github_tutorial_004.PNG) </p>
    5. Readme file 추가하기</br> <p align="center"> ![github_tutorial_005](./image/github_tutorial_005.PNG) </p>
    6. 생성 완료
-   
+
 3. 로컬 저장소<sup>Local Repository</sup> 생성
 
    1. 원하는 곳에 폴더 생성
@@ -77,7 +77,8 @@
 
          	3. URL 복사
 
-             ![](./image/github_tutorial_007.PNG)
+             <p align="center">
+                 <img src="./image/github_tutorial_007.PNG"></p>
 
          	4. 원격 저장소 주소를 추가하는 코드 입력
 
@@ -138,5 +139,4 @@
 
       	4. 아이디 / 비밀번호 입력
 
-      	5. 해결 
-
+      	5. 해결
