@@ -6,7 +6,7 @@
 
 깃허브<sup>Github</sup>는 분산 버전 컨트롤 소프트웨어 깃<sup>Git</sup>을 기반으로 소스 코드를 호스팅하고, 협업 지원 기능들을 지원하는 마이크로소프트<sup>Microsoft</sup>의 웹서비스
 
-![Github logo](Git\image\github-seeklogo.com.svg "Github logo")
+<img src="./image/github_tutorial_001.png">
 
 
 
