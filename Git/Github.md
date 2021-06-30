@@ -77,13 +77,8 @@
 
          	3. URL 복사
 
-<<<<<<< HEAD
           <p align="center">
               <img src="./image/github_tutorial_007.PNG"></p>
-=======
-             <p align="center">
-                 <img src="./image/github_tutorial_007.PNG"></p>
->>>>>>> 61276a065481ca5f844882d4ffc0dc756186743e
 
          	4. 원격 저장소 주소를 추가하는 코드 입력
 
