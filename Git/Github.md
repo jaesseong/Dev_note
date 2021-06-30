@@ -78,7 +78,8 @@
          	3. URL 복사
 
              <p align="center">
-                 <img src="./image/github_tutorial_007.PNG"></p>
+                 <img src="./image/github_tutorial_007.PNG">
+             </p>
 
          	4. 원격 저장소 주소를 추가하는 코드 입력
 
@@ -123,7 +124,7 @@
       git push origin main
       ```
 
-      <span style="color:red">※ 멈춤 오류 발생시 해결 방법 (Window 환경)</span>
+      **※ 멈춤 오류 발생시 해결 방법 (Window 환경)**
 
        1. cmd 실행
 
@@ -135,7 +136,7 @@
           git push [저장소 명] [브렌치 명]
           ```
 
-      	3. 인터넷 연걸 승인 및 개인 승인 토큰이 출력되면 **1**을 입력하고 **Enter**
+      	3. 인터넷 연걸 승인 및 개인 승인 토큰이 출력되면 **1**을 입력하고 Enter
 
       	4. 아이디 / 비밀번호 입력
 
