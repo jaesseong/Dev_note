@@ -4,8 +4,7 @@
 ------------
 마크다운(markdown)은 2004년에 존 그루버와 에런 스워츠의 협업을 통해 만들어진 일반 텍스트 기반의 경량 마크업 언어이다.
 
-> 마크업 언어<sup>Markup Language</sup>란?
-> ----------
+> #### 마크업 언어<sup>Markup Language</sup>란?
 > 태그 등을 이용하여 문서나 데이터의 구조를 명기하는 언어
 
 마크업 문법<sup>Markup Syntax</sup>
@@ -45,15 +44,15 @@
   ##### This is an `<h5>` tag
   ###### This is an `<h6>` tag
 
-### 강조^Emphasis^
-- 볼드체^bold^ : 굵게쓰기
+### 강조<sup>Emphasis</sup>
+- 볼드체<sup>bold</sup> : 굵게쓰기
   ```
   **This text will be bold**
   __This will also be bold__
   ```
   **This text will be bold**
   __This will also be bold__
-- 이탤릭체^italic^ : 기울여쓰기
+- 이탤릭체<sup>italic</sup> : 기울여쓰기
   ```
   *This text will be italic*
   _This will also be italic_
@@ -73,29 +72,44 @@ ___
 ***
 ___
 
-### 링크^links^
-- URL links : URL 입력시 자동적으로^Automaticl^ 하이퍼링크 등록
+### 링크<sup>links</sup>
+- URL links : URL 입력시 자동적으로<sup>Automaticl</sup> 하이퍼링크 등록
   ```
-  주소
-  http://github.com/jaesseong
+  http://github.com/
   ```
-  http://github.com/jaesseong
+  http://github.com/
 - Inline links : 문구에 하이퍼링크 등록
   ```
-  [주소에 대한 설명](주소)
-  [Jaeseong's Github](http://github.com/jaesseong)
+  [깃 허브](http://github.com/ "Github")
   ```
-  [Jaeseong's Github](http://github.com/jaesseong)
-- 참조 링크
+  [깃 허브](http://github.com/ "Github")
+- 참조 링크 : 문서 내에 같은 주소의 하이퍼링크를 효율적으로 작성할 수 있음
+  ※ 참조되어지는 행과 참조할 정보를 기록하는 행은 한 행 이상의 거리가 필요
   ```
-  [주소에 대한 설명] [1]
-  [google] [1]
-  [참조 번호] : 주소
-  [1] : http://google.co.kr
-  ```
+  [깃 허브][1]는 최고의 협업 사이트입니다.
+  [깃 허브][1]를 경험해보고 싶다면 [이 곳][1]을 클릭해주세요.
   
-  [Jaeseong's Github][1]
-  [1]:http://github.com/jaesseong "라면"
+  [1]:http://github.com/ "Github"
+  ```
+  [깃 허브][1]는 최고의 협업 사이트입니다.
+  [깃 허브][1]를 경험해보고 싶다면 [이 곳][1]을 클릭해주세요.
+  
+  [1]:http://github.com/ "Github"  
+- 함축적 링크 사용 : 번호가 아닌 함축적 의미를 담은 문구를 이용해 참조
+  ```
+  [깃 허브][github]는 최고의 협업 사이트입니다.
+  [깃 허브][github]를 경험해보고 싶다면 [이 곳][github]을 클릭해주세요.
+  
+  [github]:http://github.com/ "Github"
+  ```
+  [깃 허브][github]는 최고의 협업 사이트입니다.
+  [깃 허브][github]를 경험해보고 싶다면 [이 곳][github]을 클릭해주세요.
+  
+  [github]:http://github.com/ "Github"
+  
+  
+  
+
   
   
   
