@@ -33,14 +33,15 @@
    4. 레파지토리 이름 및 설명 작성</br><p align="center"> ![github_tutorial_004](./image/github_tutorial_004.PNG) </p>
    5. Readme file 추가하기</br> <p align="center"> ![github_tutorial_005](./image/github_tutorial_005.PNG) </p>
    6. 생성 완료
-3.  로컬 저장소<sup>Local Repository</sup> 생성
+3. 로컬 저장소<sup>Local Repository</sup> 생성
+
    1. 원하는 곳에 폴더 생성
    2. Git Bash에 들어가기
-      1.  생성한 폴더로 이동</br>`cd 폴더명`
-      2.  메인 브렌치 명 변경</br> `git config --global init.defaultBranch main`
-      3.  폴더를 로컬 깃 저장소로 등록</br> `git init`
-      4.  사용자 정보 등록</br> `git config --global user.name "User Name"`</br>`git config --global user.email useremail@example.com`
-   3. 
+      1. 생성한 폴더로 이동</br>`cd 폴더명`
+      2. 메인 브렌치 명 변경</br> `git config --global init.defaultBranch main`
+      3. 폴더를 로컬 깃 저장소로 등록</br> `git init`
+      4. 사용자 정보 등록</br> `git config --global user.name "User Name"`</br>`git config --global user.email useremail@example.com`
+4. 
 
 
 
