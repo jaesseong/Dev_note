@@ -91,7 +91,8 @@ ___
   
   [1]:http://github.com/ "Github"
   ```
-  [깃 허브][1]는 최고의 협업 사이트입니다.
+  [깃 허브][1]는 최고의 협업 사이트입니다.  
+  
   [깃 허브][1]를 경험해보고 싶다면 [이 곳][1]을 클릭해주세요.
   
   [1]:http://github.com/ "Github"  
@@ -102,7 +103,8 @@ ___
   
   [github]:http://github.com/ "Github"
   ```
-  [깃 허브][github]는 최고의 협업 사이트입니다.
+  [깃 허브][github]는 최고의 협업 사이트입니다.  
+  
   [깃 허브][github]를 경험해보고 싶다면 [이 곳][github]을 클릭해주세요.
   
   [github]:http://github.com/ "Github"
