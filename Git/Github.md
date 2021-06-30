@@ -25,9 +25,8 @@
 
 1. [깃<sup>Git</sup> 설치](https://git-scm.com/) + [깃허브<sup>Github</sup> 회원가입](https://github.com/)
 2. 로그인 후 레파지토리<sup>repository</sup>(원격 저장소<sup>Remote Repository</sup>) 만들기 
-   1. 홈에서 오른 쪽 상단 자신의 프로필 클릭 <br/> <p align="center">![github_tutorial_001](.\image\github_tutorial_001.PNG)</p>
+   1. 홈에서 오른 쪽 상단 자신의 프로필 클릭 ![github_tutorial_001](.\image\github_tutorial_001.PNG)
    2. your repositories 클릭 <br/><p align="center">![github_tutorial_002](.\image\github_tutorial_002.PNG)</p>
-   3. 
    4. New 클릭</br><p align="center">![github_tutorial_003](.\image\github_tutorial_003.PNG)</p>
    5. 레파지토리 이름 및 설명 작성</br><p align="center">![github_tutorial_004](.\image\github_tutorial_004.PNG)</p>
    6. Readme file 추가하기</br> <p align="center">![github_tutorial_005](.\image\github_tutorial_005.PNG)</p>
@@ -38,7 +37,7 @@
       1.  생성한 폴더로 이동</br>`cd 폴더명`
       2.  메인 브렌치 명 변경</br> `git config --global init.defaultBranch main`
       3.  폴더를 로컬 깃 저장소로 등록</br> `git init`
-      4.  사용자 정보 등록</br> `git config --global user.name "User Name"</br>git config --global user.email useremail@example.com`
+      4.  사용자 정보 등록</br> `git config --global user.name "User Name"`</br>`git config --global user.email useremail@example.com`
    3. 
 
 
