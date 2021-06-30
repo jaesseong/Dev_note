@@ -92,10 +92,9 @@ ___
   [1]:http://github.com/ "Github"
   ```
   [깃 허브][1]는 최고의 협업 사이트입니다.  
-  
   [깃 허브][1]를 경험해보고 싶다면 [이 곳][1]을 클릭해주세요.
   
-  [1]:http://github.com/ "Github"  
+  [1]:http://github.com/ "Github"
 - 함축적 링크 사용 : 번호가 아닌 함축적 의미를 담은 문구를 이용해 참조
   ```
   [깃 허브][github]는 최고의 협업 사이트입니다.
@@ -104,7 +103,6 @@ ___
   [github]:http://github.com/ "Github"
   ```
   [깃 허브][github]는 최고의 협업 사이트입니다.  
-  
   [깃 허브][github]를 경험해보고 싶다면 [이 곳][github]을 클릭해주세요.
   
   [github]:http://github.com/ "Github"
