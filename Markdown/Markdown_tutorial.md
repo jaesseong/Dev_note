@@ -137,7 +137,7 @@ ___
       + item 3-1-1
 
 ## 이미지<sup>Images</sup>
-**Link image**  
+- **Link image**  
   이미지 오른쪽 마우스 클릭 -> 이미지 주소 복사 -> URL 입력
   ```
   ![Bird](https://cdn.pixabay.com/photo/2021/06/27/17/50/redstart-6369564__480.jpg)
