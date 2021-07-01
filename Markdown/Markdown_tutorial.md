@@ -21,7 +21,7 @@
 > 태그 등을 이용하여 문서나 데이터의 구조를 명기하는 언어
 
 ## <div id="syntax">마크업 문법<sup>Markup Syntax</sup></div>
-----
+
 ### <div id="header">헤더<sup>Header</sup></div>
 
 - **h1** : 큰 제목, 문서 제목
