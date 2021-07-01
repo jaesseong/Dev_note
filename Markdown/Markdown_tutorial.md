@@ -10,6 +10,7 @@
   - [링크<sup>Links</sup>](#links)
   - [이미지<sup>Images</sup>](#images)
   - [Blockquotes](#blockquotes)
+  - [첨자<sup>Script</sup>](#script)
 
 
 ## <div id="concept">마크다운<sup>Markdown</sup>이란?</div>
@@ -183,3 +184,30 @@ As Kanye West said:
 
 > We're living the future so  
 > the present is our past.
+
+## <div id="script">첨자<sup>Script</sup></div>
+- **위첨자<sup>Superscript</sup>**
+```
+문구<sup>윗첨자</sup>
+```
+문구<sup>윗첨자</sup>
+- **아래첨자<sub>Subscript</sub>**
+```
+문구<sub>아랫첨자</sub>
+```
+문구<sub>아랫첨자</sub>
+
+## <div id="code">코드<sup>Code</sup></div>
+- **Inline code**
+```
+I think you should use an  
+`<addr>` element here instead.
+```
+I think you should use an  
+`<addr>` element here instead.
+
+- **펜스<sup>Fences</sup>**
+~~~
+```
+```
+~~~
