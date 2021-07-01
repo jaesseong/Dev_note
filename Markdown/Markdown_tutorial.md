@@ -209,5 +209,70 @@ I think you should use an
 - **펜스<sup>Fences</sup>**
 ~~~
 ```
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
 ```
 ~~~
+```
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+```
+~~~
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+~~~
+```
+~~~
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+~~~
+※ 펜스 내에 \`\`\`을 적고 싶으면 \~\~\~ 펜스를 사용, 반대도 가능
+
+- **문법 강조<sup>Syntax highlighting</sup>**
+~~~
+``` javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+~~~
+``` javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+- 줄강조
+~~~
+``` javascript {2, 4}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+~~~
+``` javascript {2, 4}
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
