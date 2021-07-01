@@ -154,6 +154,6 @@ ___
 - **Image link**
   Combination of Image and Link
   ```
-  [![Squirrel](./image/squirrel.webp)](http://githbu.com)
+  [![Squirrel](./image/squirrel.webp)](http://github.com)
   ```
   [![Squirrel](./image/squirrel.webp)](http://github.com)
