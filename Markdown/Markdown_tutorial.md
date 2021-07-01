@@ -3,7 +3,7 @@
 목차
 ----
 - [마크다운<sup>Markdown</sup>이란?](#마크다운-sup-markdown--sup-이란?)
-- [마크업 문법<sup>Markup Syntax</sup>](#syntax)
+- [마크업 문법<sup>Markup Syntax</sup>](#마크업-문법-sup-markup-syntax--sup-)
   - [제목<sup>Header</sup>](#header)
   - [강조<sup>Emphasis</sup>](#emphasis)
   - [수평선<sup>Horizontal Rules</sup>](#horizontal)
@@ -23,7 +23,7 @@
 > #### 마크업 언어<sup>Markup Language</sup>란?
 > 태그 등을 이용하여 문서나 데이터의 구조를 명기하는 언어
 
-## <div id="syntax">마크업 문법<sup>Markup Syntax</sup></div>
+## 마크업 문법<sup>Markup Syntax</sup>
 
 ### <div id="header">헤더<sup>Header</sup></div>
 
