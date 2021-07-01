@@ -91,7 +91,7 @@
   **This text will be bold**  
   __This will also be bold__
   
-- #### 이탤릭체<sup>italic</sup>
+- ### 이탤릭체<sup>italic</sup>
    
   ```
   *This text will be italic*
