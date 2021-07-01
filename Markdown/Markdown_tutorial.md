@@ -1,4 +1,4 @@
-# 마크다운<sup>Markdown</sup>
+# 마크다운<sup>Markdown</sup> 튜토리얼
 
 # 목차
 
