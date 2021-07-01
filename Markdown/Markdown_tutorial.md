@@ -4,13 +4,14 @@
 ----
 - [마크다운<sup>Markdown</sup>이란?](#마크다운-sup-markdown--sup-이란?)
 - [마크업 문법<sup>Markup Syntax</sup>](#마크업-문법-sup-markup-syntax--sup-)
-  - [제목<sup>Header</sup>](#header)
-  - [강조<sup>Emphasis</sup>](#emphasis)
-  - [수평선<sup>Horizontal Rules</sup>](#horizontal)
-  - [링크<sup>Links</sup>](#links)
-  - [이미지<sup>Images</sup>](#images)
+  - [제목<sup>Header</sup>](#제목-sup-header--sup-)
+  - [강조<sup>Emphasis</sup>](#강조-sup-emphasis--sup-)
+  - [수평선<sup>Horizontal Rules</sup>](#수평선-sup-horizontal-rules--sup-)
+  - [링크<sup>Links</sup>](#링크-sup-links--sup-)
+  - [이미지<sup>Images</sup>](#이미지-sup-images--sup-)
   - [Blockquotes](#blockquotes)
-  - [첨자<sup>Script</sup>](#script)
+  - [첨자<sup>Script</sup>](#첨자-sup-script--sup-)
+  - [코드<sup>Code</sup>](#코드-sup-code--sup-)
   
 
 
@@ -25,7 +26,7 @@
 
 ## 마크업 문법<sup>Markup Syntax</sup>
 
-### <div id="header">헤더<sup>Header</sup></div>
+### 제목<sup>Header</sup></div>
 
 - #### h1 
   큰 제목, 문서 제목
@@ -74,7 +75,7 @@
   ##### This is an `<h5>` tag
   ###### This is an `<h6>` tag
 
-### <div id="emphasis">강조<sup>Emphasis</sup></div>
+### 강조<sup>Emphasis</sup>
 - #### 볼드체<sup>bold</sup>
   굵게쓰기  
   ##### 실행 코드
@@ -97,7 +98,7 @@
   _This will also be italic_
 
 
-### <div id="horizontal">수평선<sup>Horizontal Rules</sup></div>
+### 수평선<sup>Horizontal Rules</sup>
 `-`, `*` 또는 `_`를 3개 이상 입력  
 ##### 실행 코드
 ```
@@ -110,7 +111,7 @@ ___
 ***
 ___
 
-### <div id="links">링크<sup>links</sup>
+### 링크<sup>links</sup>
 - #### URL links 
   URL 입력시 자동적으로<sup>Automaticl</sup> 하이퍼링크 등록  
   ##### 실행 코드
@@ -188,7 +189,7 @@ ___
     + item 3-1
       + item 3-1-1
 
-## <div id="images">이미지<sup>Images</sup></div>
+## 이미지<sup>Images</sup>
 - #### Link image
   이미지 오른쪽 마우스 클릭 -> 이미지 주소 복사 -> URL 입력
   ##### 실행 결과
@@ -216,7 +217,7 @@ ___
   ##### 결과
   [![Squirrel](./image/squirrel.webp)](http://github.com)
   
-## <div id="blockquotes">Blockquotes</div>
+## Blockquotes
 ##### 실행 코드
 ```
 As Kanye West said:
@@ -230,88 +231,115 @@ As Kanye West said:
 > We're living the future so  
 > the present is our past.
 
-## <div id="script">첨자<sup>Script</sup></div>
+## 첨자<sup>Script</sup>
 - #### 위첨자<sup>Superscript</sup>
-##### 실행 결과
-```
-문구<sup>윗첨자</sup>
-```
-##### 결과
-문구<sup>윗첨자</sup>
+  ##### 실행 결과
+  ```
+  문구<sup>윗첨자</sup>
+  ```
+  ##### 결과
+  문구<sup>윗첨자</sup>
 - #### 아래첨자<sub>Subscript</sub>
-##### 실행 결과
-```
-문구<sub>아랫첨자</sub>
-```
-##### 결과
-문구<sub>아랫첨자</sub>
+  ##### 실행 결과
+  ```
+  문구<sub>아랫첨자</sub>
+  ```
+  ##### 결과
+  문구<sub>아랫첨자</sub>
 
-## <div id="code">코드<sup>Code</sup></div>
+## 코드<sup>Code</sup>
 - #### Inline code
-##### 실행 코드
-```
-I think you should use an  
-`<addr>` element here instead.
-```
-##### 결과
-I think you should use an  
-`<addr>` element here instead.
+  ##### 실행 코드
+  ```
+  I think you should use an  
+  `<addr>` element here instead.
+  ```
+  ##### 결과
+  I think you should use an  
+  `<addr>` element here instead.
 
 - #### 펜스<sup>Fences</sup>
-##### 실행 코드
-~~~
-```
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
+  ##### 실행 코드
+  ~~~
+  ```
+  function fancyAlert(arg) {
+    if(arg) {
+      $.facebox({div:'#foo'})
+    }
   }
-}
-```
-~~~
-##### 결과
-```
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
+  ```
+  ~~~
+  ##### 결과
+  ```
+  function fancyAlert(arg) {
+    if(arg) {
+      $.facebox({div:'#foo'})
+    }
   }
-}
-```
-##### 실행 코드
-```
-~~~
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
+  ```
+  ##### 실행 코드
+  ```
+  ~~~
+  function fancyAlert(arg) {
+    if(arg) {
+      $.facebox({div:'#foo'})
+    }
   }
-}
-~~~
-```
-##### 결과
-~~~
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
+  ~~~
+  ```
+  ##### 결과
+  ~~~
+  function fancyAlert(arg) {
+    if(arg) {
+      $.facebox({div:'#foo'})
+    }
   }
-}
-~~~
-※ 펜스 내에 \`\`\`을 적고 싶으면 \~\~\~ 펜스를 사용, 반대도 가능
+  ~~~
+  ※ 펜스 내에 \`\`\`을 적고 싶으면 \~\~\~ 펜스를 사용, 반대도 가능
 
 - #### 문법 강조<sup>Syntax highlighting</sup>
-##### 실행 코드
-~~~
-``` javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
+  ##### 실행 코드
+  ~~~
+  ``` javascript
+  function fancyAlert(arg) {
+    if(arg) {
+      $.facebox({div:'#foo'})
+    }
   }
-}
-```
-~~~
-##### 결과
-``` javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
+  ```
+  ~~~
+  ##### 결과
+  ``` javascript
+  function fancyAlert(arg) {
+    if(arg) {
+      $.facebox({div:'#foo'})
+    }
   }
-}
-```
+  ```
+
+## 테이블<sup>Tables</sup>
+- #### 테이블 생성
+  ##### 실행 코드
+  ```
+  Header 1 | Header 2
+  -------- | --------
+  Content 1 | Content 2
+  Content 3 | Content 4
+  ```
+  Header 1 | Header 2
+  -------- | --------
+  Content 1 | Content 2
+  Content 3 | Content 4
+- #### 테이블 정렬
+  ##### 실행 코드
+  ```
+  |   Left    |  Center   |   Right   |
+  |:----------|:---------:|----------:|
+  | Content 1 | Content 2 | content 3 |
+  | Content 4 | Content 5 | content 6 |
+  ```
+  ##### 결과
+  |   Left    |  Center   |   Right   |
+  |:----------|:---------:|----------:|
+  | Content 1 | Content 2 | content 3 |
+  | Content 4 | Content 5 | content 6 |
