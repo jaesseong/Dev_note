@@ -395,11 +395,12 @@
   ```
   
   **결과**  
-      function fancyAlert(arg) {
-        if(arg) {
-          $.facebox({div:'#foo'})
+  
+        function fancyAlert(arg) {
+          if(arg) {
+            $.facebox({div:'#foo'})
+          }
         }
-      }
       
 ### 테이블<sup>Tables</sup>
   - #### 테이블 생성
