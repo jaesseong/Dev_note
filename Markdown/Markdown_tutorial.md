@@ -137,21 +137,21 @@ ___
       + item 3-1-1
 
 ## 이미지<sup>Images</sup>
-**Link image**
-  오른쪽 마우스 클릭 -> 이미지 주소 복사 -> URL 입력
+**Link image**  
+  이미지 오른쪽 마우스 클릭 -> 이미지 주소 복사 -> URL 입력
   ```
   ![Bird](https://cdn.pixabay.com/photo/2021/06/27/17/50/redstart-6369564__480.jpg)
   ```
   ![Bird](https://cdn.pixabay.com/photo/2021/06/27/17/50/redstart-6369564__480.jpg)
 
-- **Inline image**
+- **Inline image**  
   로컬 저장소의 경로를 입력
   ```
   ![Squirrel](./image/squirrel.webp "다람쥐")
   ```
   ![Squirrel](./image/squirrel.webp "다람쥐")
 
-- **Image link**
+- **Image link**  
   Combination of Image and Link
   ```
   [![Squirrel](./image/squirrel.webp)](http://github.com)
