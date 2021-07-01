@@ -4,7 +4,7 @@
 
 - [마크다운<sup>Markdown</sup>이란?](#마크다운markdown이란)
 - [마크업 문법<sup>Markup Syntax</sup>](#마크업-문법markup-syntax)
-  - [<sup>Header</sup>](#헤더header)
+  - [헤더<sup>Header</sup>](#헤더header)
   - [강조<sup>Emphasis</sup>](#강조emphasis)
   - [수평선<sup>Horizontal Rules</sup>](#수평선horizontal-rules)
   - [링크<sup>Links</sup>](#링크links)
