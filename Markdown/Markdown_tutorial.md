@@ -10,7 +10,7 @@
 마크업 문법<sup>Markup Syntax</sup>
 ----
 ### 헤더<sup>Header</sup>
-- h1 : 큰 제목, 문서 제목
+- **h1** : 큰 제목, 문서 제목
   ```
   # This is an <h1> tag
   ```
@@ -21,7 +21,7 @@
   ```
   This is an `<h1>` tag
   ===
-- h2 : 중간 제목, 부 제목
+- **h2** : 중간 제목, 부 제목
   ```
   ## This is an <h2> tag
   ```
@@ -32,7 +32,7 @@
   ```
   This is an `<h2>` tag
   ---
-- h3 ~ h6 : 소 제목
+- **h3 ~ h6** : 소 제목
   ```
   ### This is an <h3> tag
   #### This is an <h4> tag
@@ -45,14 +45,14 @@
   ###### This is an `<h6>` tag
 
 ### 강조<sup>Emphasis</sup>
-- 볼드체<sup>bold</sup> : 굵게쓰기
+- **볼드체<sup>bold</sup>** : 굵게쓰기
   ```
   **This text will be bold**
   __This will also be bold__
   ```
   **This text will be bold**
   __This will also be bold__
-- 이탤릭체<sup>italic</sup> : 기울여쓰기
+- **이탤릭체<sup>italic</sup>** : 기울여쓰기
   ```
   *This text will be italic*
   _This will also be italic_
@@ -73,36 +73,87 @@ ___
 ___
 
 ### 링크<sup>links</sup>
-- URL links : URL 입력시 자동적으로<sup>Automaticl</sup> 하이퍼링크 등록
+- **URL links** : URL 입력시 자동적으로<sup>Automaticl</sup> 하이퍼링크 등록
   ```
   http://github.com/
   ```
   http://github.com/
-- Inline links : 문구에 하이퍼링크 등록
+- **Inline links** : 문구에 하이퍼링크 등록
   ```
   [깃 허브](http://github.com/ "Github")
   ```
   [깃 허브](http://github.com/ "Github")
-- 참조 링크 : 문서 내에 같은 주소의 하이퍼링크를 효율적으로 작성할 수 있음  
+- **참조 링크** : 문서 내에 같은 주소의 하이퍼링크를 효율적으로 작성할 수 있음  
   ※ 참조되어지는 행과 참조할 정보를 기록하는 행은 한 행 이상의 거리가 필요
   ```
   [깃 허브][1]는 최고의 협업 사이트입니다.
-  [깃 허브][1]를 경험해보고 싶다면 [이 곳][1]을 클릭해주세요.
+  [깃 허브][github]를 경험해보고 싶다면 [이 곳][1]을 클릭해주세요.
 
   [1]:http://github.com/ "Github"
+  [github]:http://github.com/ "Github"
   ```
   [깃 허브][1]는 최고의 협업 사이트입니다.  
-  [깃 허브][1]를 경험해보고 싶다면 [이 곳][1]을 클릭해주세요.
+  [깃 허브][github]를 경험해보고 싶다면 [이 곳][1]을 클릭해주세요.  
 
   [1]:http://github.com/ "Github"
-- 함축적 링크 사용 : 번호가 아닌 함축적 의미를 담은 문구를 이용해 참조
-  ```
-  [깃 허브][github]는 최고의 협업 사이트입니다.
-  [깃 허브][github]를 경험해보고 싶다면 [이 곳][github]을 클릭해주세요.
-
   [github]:http://github.com/ "Github"
-  ```
-  [깃 허브][github]는 최고의 협업 사이트입니다.  
-  [깃 허브][github]를 경험해보고 싶다면 [이 곳][github]을 클릭해주세요.
 
-  [github]:http://github.com/ "Github"
+### 리스트<sup>Lists</sup>
+- **순서가 있는 리스트<sup>Ordered Lists</sup>**  
+  ※ 적힌 숫자와 상관없이 순서대로 번호가 매겨진다.
+  ```
+  1. item 1
+  1. item 2
+  1. item 3
+    1. item 3a
+    1. item 3b
+  ```
+  1. item 1
+  1. item 2
+  1. item 3  
+      1. item 3a
+      1. item 3b
+
+- **순서가 없는 리스트<sup>Unordered Lists</sup>**
+  ```
+  - item 1
+    - item 1-1
+      - item 1-1-1
+  * item 2
+    * item 2-1
+      *item 2-1-1
+  + item 3
+    + item 3-1
+      + item 3-1-1
+  ```
+  - item 1
+    - item 1-1
+      - item 1-1-1
+  * item 2
+    * item 2-1
+      * item 2-1-1
+  + item 3
+    + item 3-1
+      + item 3-1-1
+
+## 이미지<sup>Images</sup>
+**Link image**
+  오른쪽 마우스 클릭 -> 이미지 주소 복사 -> URL 입력
+  ```
+  ![Bird](https://cdn.pixabay.com/photo/2021/06/27/17/50/redstart-6369564__480.jpg)
+  ```
+  ![Bird](https://cdn.pixabay.com/photo/2021/06/27/17/50/redstart-6369564__480.jpg)
+
+- **Inline image**
+  로컬 저장소의 경로를 입력
+  ```
+  ![Squirrel](./image/squirrel.webp "다람쥐")
+  ```
+  ![Squirrel](./image/squirrel.webp "다람쥐")
+
+- **Image link**
+  Combination of Image and Link
+  ```
+  [![Squirrel](./image/squirrel.webp)](http://githbu.com)
+  ```
+  [![Squirrel](./image/squirrel.webp)](http://github.com)
