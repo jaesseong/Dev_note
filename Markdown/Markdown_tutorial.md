@@ -377,4 +377,15 @@ As Kanye West said:
     ###### 제 목!<sup>1</sup>
     <div id="아이디">제 목!<sup>2</sup></div>
     
+    ## 각주<sup>Footnote</sup>
+    ※ Github는 [^id] 각주 기능을 지원하지 않음
+    ```
+    <div id="footnotes-p">각주입니다<sup>[1](#footnotes)</sup></div>
+    <div id="footnotes">[1](#footnotes-p) 각주 설명 : 설명설명<div>
+    ```
+    각주입니다<sup>[1](#footnotes)</sup>
+    
+    <a name="footnotes">1</a>: 설명설명
+    
+    
     
