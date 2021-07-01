@@ -14,6 +14,7 @@
   - [코드<sup>Code</sup>](#코드code)
   - [테이블<sup>Tables</sup>](#테이블tables)
   - [목차<sup>Table of Content</sup>](#목차table-of-content)
+  - [각주<sup>Footnote</sup>](#각주footnote)
   
 
 
@@ -380,12 +381,13 @@ As Kanye West said:
     ## 각주<sup>Footnote</sup>
     ※ Github는 [^id] 각주 기능을 지원하지 않음
     ```
-    <div id="footnotes-p">각주입니다<sup>[1](#footnotes)</sup></div>
-    <div id="footnotes">[1](#footnotes-p) 각주 설명 : 설명설명<div>
-    ```
-    각주입니다<sup>[1](#footnotes)</sup>
+    각주<sup>[1](#footnotes)</sup>
     
-    <a name="footnotes">1</a>: 설명설명
+    <a name="footnotes">1</a>: 본문에 대하는 참조 문헌이나 본문의 낱말, 문장 등의 뜻을 알기 쉽게 풀이하는 덧붙이는 글
+    ```
+    각주<sup>[1](#footnotes)</sup>
+    
+    <a name="footnotes">1</a>: 본문에 대하는 참조 문헌이나 본문의 낱말, 문장 등의 뜻을 알기 쉽게 풀이하는 덧붙이는 글
     
     
     
