@@ -81,7 +81,7 @@
   ###### This is an `<h6>` tag
 
 ## 강조<sup>Emphasis</sup>
-- 볼드체<sup>bold</sup>
+- ### 볼드체<sup>bold</sup>
     
   ```
   **This text will be bold**
@@ -91,7 +91,7 @@
   **This text will be bold**  
   __This will also be bold__
   
-- 이탤릭체<sup>italic</sup>
+- #### 이탤릭체<sup>italic</sup>
    
   ```
   *This text will be italic*
@@ -126,7 +126,8 @@
   
   <http://github.com/>
 
-- Inline links : 문구에 하이퍼링크 등록  
+- ### Inline links
+  문구에 하이퍼링크 등록  
   
   ```
   [깃 허브](http://github.com/ "Github")
@@ -135,8 +136,8 @@
   [깃 허브](http://github.com/ "Github")
 
 - ### 참조 링크
-  문서 내에 같은 주소의 하이퍼링크를 효율적으로 작성할 수 있음</br>
-  ※ 참조되어지는 행과 참조할 정보를 기록하는 행은 한 행 이상의 거리가 필요
+  문서 내에 같은 주소의 하이퍼링크를 효율적으로 작성할 수 있음
+  참조되어지는 행과 참조할 정보를 기록하는 행은 한 행 이상의 거리가 필요
   
   ```
   [깃 허브][1]는 최고의 협업 사이트입니다.
@@ -155,7 +156,7 @@
 ## 리스트<sup>Lists</sup>
 
 - ### 순서가 있는 리스트<sup>Ordered Lists</sup>  
-   ※ 적힌 숫자와 상관없이 순서대로 번호가 매겨진다.  
+  적힌 숫자와 상관없이 순서대로 번호가 매겨진다.  
   
   ```
   1. item 1
@@ -441,7 +442,7 @@
     
       
 ## 각주<sup>Footnote</sup>
-  ※ Github는 [^id] 각주 기능을 지원하지 않음
+  Github는 [^id] 각주 기능을 지원하지 않기 때문에 HTML 방식을 사용
   
   ```
   각주<sup>[1](#footnotes)</sup>
