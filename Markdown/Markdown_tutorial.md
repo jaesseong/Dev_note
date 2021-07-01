@@ -365,10 +365,10 @@ As Kanye West said:
   - #### 참조되어질 내용
     ##### 실행 코드
     ```
-    ###### 제 목<sup>1</sup>
+    #### 제 목<sup>1</sup>
     <div id="아이디">제 목<sup>2</sup></div>
     ```
-    ##### 결과
+    #### 결과
     ##### 제 목<sup>1</sup>
     <div id="아이디">제 목<sup>2</sup></div>
     
