@@ -225,6 +225,18 @@ ___
   ##### 결과
   [![Squirrel](./image/squirrel.webp)](http://github.com)
   
+- #### 이미지 크기 조절
+  ##### 실행 코드
+  ```
+  <img src="./image/squirrel.webp" width="150px" height="100px" title="고정 크기 설정" alt="다람쥐"></img>
+  
+  <img src="./image/squirrel.webp" width="40%" height="30%" title="가변 크기 설정" alt="다람쥐"></img>
+  ```
+  ##### 결과
+  <img src="./image/squirrel.webp" width="150px" height="100px" title="고정 크기 설정" alt="다람쥐"></img>
+  
+  <img src="./image/squirrel.webp" width="40%" height="30%" title="가변 크기 설정" alt="다람쥐"></img>
+  
 ### Blockquotes
   ##### 실행 코드
   ```
@@ -458,32 +470,36 @@ ___
   ##### 실행 코드
   ```
   개행이 안될거에요.
-  왜냐하면 띄어쓰기를 안했으니까요.
+  왜냐하면 띄어쓰기를 안했으니까요
   
   개행이 될거예요.  
-  왜냐하면 띄어쓰기를 두 번 했어요.
+  왜냐하면 띄어쓰기를 두 번 했어요
   ```
   ##### 결과
   개행이 안될거에요.
-  왜냐하면 띄어쓰기를 안했으니까요.
+  왜냐하면 띄어쓰기를 안했으니까요
   
   개행이 될거예요.  
-  왜냐하면 띄어쓰기를 두 번 했어요.
+  왜냐하면 띄어쓰기를 두 번 했어요
   
 ### 단락<sup>Paragraph</sup>
-  단락을 나누고 싶은 곳에 두 번 Enter을 입력
+  ##### 방법
+  1. 단락을 나누고 싶은 곳에 두 번 Enter을 입력
+  2. 단락을 나누고 싶은 곳에 `</br>`을 입력
   ##### 실행 코드
   ```
   단락1
   단락2
   
-  단락3
+  단락3</br>
+  단락4  
   ```
   ##### 결과
   단락1
   단락2
   
-  단락3
+  단락3</br>
+  단락4  
 
   
     
