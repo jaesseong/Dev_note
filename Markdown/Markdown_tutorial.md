@@ -4,7 +4,7 @@
 
 - [마크다운<sup>Markdown</sup>이란?](#마크다운markdown이란)
 - [마크업 문법<sup>Markup Syntax</sup>](#마크업-문법markup-syntax)
-  - [제목<sup>Header</sup>](#제목header)
+  - [<sup>Header</sup>](#헤더header)
   - [강조<sup>Emphasis</sup>](#강조emphasis)
   - [수평선<sup>Horizontal Rules</sup>](#수평선horizontal-rules)
   - [링크<sup>Links</sup>](#링크links)
@@ -34,54 +34,46 @@
 
 # 마크업 문법<sup>Markup Syntax</sup>
 
-## 제목<sup>Header</sup></div>
-
-- ### h1 
-  큰 제목, 문서 제목  
-  **실행 코드**
+## 헤더<sup>Header</sup></div>
+- h1 : 큰 제목, 문서 제목 
+  
   ```
   # This is an <h1> tag
   ```
-  **결과**  
-  
   # This is an `<h1>` tag
-  **실행 코드**
+
   ```
   This is an <h1> tag
   ===
   ```
-  **결과**  
   
   This is an `<h1>` tag
   ===
-- ### h2
-  중간 제목, 부 제목  
-  **실행 코드**
+
+- h2 : 중간 제목, 부 제목
+  
   ```
   ## This is an <h2> tag
   ```
-  **결과**  
   
   ## This is an `<h2>` tag
-  **실행 코드**
+
   ```
   This is an <h2> tag
   ---
   ```
-  **결과**  
+
   
   This is an `<h2>` tag
   ---
-- ### h3 ~ h6
-  소 제목    
-  **실행 코드**
+- h3 ~ h6 : 소 제목    
+
   ```
   ### This is an <h3> tag
   #### This is an <h4> tag
   ##### This is an <h5> tag
   ###### This is an <h6> tag
   ```
-  **결과**  
   
   ### This is an `<h3>` tag
   #### This is an `<h4>` tag
@@ -89,25 +81,22 @@
   ###### This is an `<h6>` tag
 
 ## 강조<sup>Emphasis</sup>
-- ### 볼드체<sup>bold</sup>
+- 볼드체<sup>bold</sup>
     
-  **실행 코드**
   ```
   **This text will be bold**
   __This will also be bold__
   ```
-  **결과**  
   
   **This text will be bold**
   __This will also be bold__
-- ### 이탤릭체<sup>italic</sup>
+  
+- 이탤릭체<sup>italic</sup>
    
-  **실행 코드**
   ```
   *This text will be italic*
   _This will also be italic_
   ```
-  **결과**  
   
   *This text will be italic*
   _This will also be italic_
