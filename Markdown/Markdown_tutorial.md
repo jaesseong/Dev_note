@@ -13,7 +13,7 @@
   - [첨자<sup>Script</sup>](#첨자supscriptsup)
   - [코드<sup>Code</sup>](#코드supcodesup)
   - [테이블<sup>Tables</sup>](#테이블suptablessup)
-  - [목차<sup>Table of Content</sup>](목차suptable-of-contentsup)
+  - [목차<sup>Table of Content</sup>](#목차suptable-of-contentsup)
   
 
 
