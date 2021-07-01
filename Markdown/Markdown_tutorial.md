@@ -42,14 +42,14 @@
   ```
   # This is an <h1> tag
   ```
-  ##### 결과
+  **결과**  
   # This is an `<h1>` tag
   ##### 실행 코드
   ```
   This is an <h1> tag
   ===
   ```
-  ##### 결과
+  **결과**  
   This is an `<h1>` tag
   ===
 - #### h2
@@ -58,14 +58,14 @@
   ```
   ## This is an <h2> tag
   ```
-  ##### 결과
+  **결과**  
   ## This is an `<h2>` tag
   ##### 실행 코드
   ```
   This is an <h2> tag
   ---
   ```
-  ##### 결과
+  **결과**  
   This is an `<h2>` tag
   ---
 - #### h3 ~ h6
@@ -77,7 +77,7 @@
   ##### This is an <h5> tag
   ###### This is an <h6> tag
   ```
-  ##### 결과
+  **결과**  
   ### This is an `<h3>` tag
   #### This is an `<h4>` tag
   ##### This is an `<h5>` tag
@@ -91,7 +91,7 @@
   **This text will be bold**
   __This will also be bold__
   ```
-  ##### 결과
+  **결과**  
   **This text will be bold**
   __This will also be bold__
 - #### 이탤릭체<sup>italic</sup>
@@ -101,7 +101,7 @@
   *This text will be italic*
   _This will also be italic_
   ```
-  ##### 결과
+  **결과**  
   *This text will be italic*
   _This will also be italic_
 
@@ -114,7 +114,7 @@
 ***
 ___
 ```
-##### 결과
+**결과**  
 ---
 ***
 ___
@@ -126,7 +126,7 @@ ___
   ```
   http://github.com/
   ```
-  ##### 결과
+  **결과**  
   http://github.com/
 - #### Inline links
   문구에 하이퍼링크 등록
@@ -134,7 +134,7 @@ ___
   ```
   [깃 허브](http://github.com/ "Github")
   ```
-  ##### 결과
+  **결과**  
   [깃 허브](http://github.com/ "Github")
 - #### 참조 링크
   문서 내에 같은 주소의 하이퍼링크를 효율적으로 작성할 수 있음  
@@ -148,7 +148,7 @@ ___
   [1]:http://github.com/ "Github"
   [github]:http://github.com/ "Github"
   ```
-  ##### 결과
+  **결과**  
   [깃 허브][1]는 최고의 협업 사이트입니다.  
   [깃 허브][github]를 경험해보고 싶다면 [이 곳][1]을 클릭해주세요.  
 
@@ -166,7 +166,7 @@ ___
     1. item 3a
     1. item 3b
   ```
-  ##### 결과
+  **결과**  
   1. item 1
   1. item 2
   1. item 3  
@@ -204,7 +204,7 @@ ___
   ```
   ![Bird](https://cdn.pixabay.com/photo/2021/06/27/17/50/redstart-6369564__480.jpg)
   ```
-  ##### 결과
+  **결과**  
   ![Bird](https://cdn.pixabay.com/photo/2021/06/27/17/50/redstart-6369564__480.jpg)
 
 - #### Inline image  
@@ -213,7 +213,7 @@ ___
   ```
   ![Squirrel](./image/squirrel.webp "다람쥐")
   ```
-  ##### 결과
+  **결과**  
   ![Squirrel](./image/squirrel.webp "다람쥐")
 
 - #### Image link  
@@ -222,7 +222,7 @@ ___
   ```
   [![Squirrel](./image/squirrel.webp)](http://github.com)
   ```
-  ##### 결과
+  **결과**  
   [![Squirrel](./image/squirrel.webp)](http://github.com)
   
 - #### 이미지 크기 조절
@@ -232,7 +232,7 @@ ___
   
   <img src="./image/squirrel.webp" width="40%" height="30%" title="가변 크기 설정" alt="다람쥐"></img>
   ```
-  ##### 결과
+  **결과**  
   <img src="./image/squirrel.webp" width="150px" height="100px" title="고정 크기 설정" alt="다람쥐"></img>
   
   <img src="./image/squirrel.webp" width="40%" height="30%" title="가변 크기 설정" alt="다람쥐"></img>
@@ -245,7 +245,7 @@ ___
   > We're living the future so
   > the present is our past.
   ```
-  ##### 결과
+  **결과**  
   As Kanye West said:
 
   > We're living the future so  
@@ -257,14 +257,14 @@ ___
   ```
   문구<sup>윗첨자</sup>
   ```
-  ##### 결과
+  **결과**  
   문구<sup>윗첨자</sup>
 - #### 아래첨자<sub>Subscript</sub>
-  ##### 실행 결과
+  **실행 코드**  
   ```
   문구<sub>아랫첨자</sub>
   ```
-  ##### 결과
+  **결과**  
   문구<sub>아랫첨자</sub>
 
 ### 코드<sup>Code</sup>
@@ -274,7 +274,7 @@ ___
   I think you should use an  
   `<addr>` element here instead.
   ```
-  ##### 결과
+  **결과**  
   I think you should use an  
   `<addr>` element here instead.
 
@@ -289,7 +289,7 @@ ___
   }
   ```
   ~~~
-  ##### 결과
+  **결과**  
   ```
   function fancyAlert(arg) {
     if(arg) {
@@ -307,7 +307,7 @@ ___
   }
   ~~~
   ```
-  ##### 결과
+  **결과**  
   ~~~
   function fancyAlert(arg) {
     if(arg) {
@@ -328,7 +328,7 @@ ___
   }
   ```
   ~~~
-  ##### 결과
+  **결과**  
   ``` javascript
   function fancyAlert(arg) {
     if(arg) {
@@ -348,7 +348,7 @@ ___
         }
       }
   ```
-  ##### 결과
+  **결과**  
       function fancyAlert(arg) {
         if(arg) {
           $.facebox({div:'#foo'})
@@ -375,7 +375,7 @@ ___
   | Content 1 | Content 2 | content 3 |
   | Content 4 | Content 5 | content 6 |
   ```
-  ##### 결과
+  **결과**  
   |   Left    |  Center   |   Right   |
   |:----------|:---------:|----------:|
   | Content 1 | Content 2 | content 3 |
@@ -383,7 +383,7 @@ ___
 
 ### 목차<sup>Table of Content</sup>
 - #### 제목<sup>Header</sup> 참조
-  #####  조건
+  **조건**  
   1. 특수 문자 (ex. ., <, /, ?, etc)와 tag (ex. `<div>`, `<sup>`, etc)는 무시
   2. 띄어쓰기는 `-`로 작성  
   3. 영어는 소문자만
@@ -399,7 +399,7 @@ ___
   ```
   [제 목!<sup>2</sup>](#아이디)
   ```
-  ##### 결과
+  **결과**  
   [제 목<sup>2</sup>](#아이디)
   
 - #### 참조되어질 내용
@@ -408,7 +408,7 @@ ___
   ###### 제 목!<sup>1</sup>
   <div id="아이디">제 목!<sup>2</sup></div>
   ```
-  ##### 결과
+  **결과**  
   ###### 제 목!<sup>1</sup>
   <div id="아이디">제 목!<sup>2</sup></div>
     
@@ -420,7 +420,7 @@ ___
   
   <a name="footnotes">1</a>: 본문에 대하는 참조 문헌이나 본문의 낱말, 문장 등의 뜻을 알기 쉽게 풀이하는 덧붙이는 글
   ```
-  ##### 결과
+  **결과**  
   각주<sup>[1](#footnotes)</sup>
     
   <a name="footnotes">1</a>: 본문에 대하는 참조 문헌이나 본문의 낱말, 문장 등의 뜻을 알기 쉽게 풀이하는 덧붙이는 글
@@ -432,7 +432,7 @@ ___
   <details><summary>Click</summary>
   요약 내용</details>
   ```
-  ##### 결과
+  **결과**  
   <details><summary>Click</summary>
   요약 내용</details>
 
@@ -444,7 +444,7 @@ ___
   \_\_볼드체\_\_
   \`\`\`
   ```
-  ##### 결과
+  **결과**  
   \*이텔리체\*
   \_\_볼드체\_\_
   \`\`\`
@@ -454,6 +454,7 @@ ___
   ```
   ~~취소할래요~~
   ```
+  **결과**  
   ~~취소할래요~~
 
 ### 이모티콘<sup>Emoji</sup>
@@ -462,7 +463,7 @@ ___
   ```
   :tada: :100:
   ```
-  ##### 결과
+  **결과**  
   :tada: :100:
   
 ### 개행<sup>Line alignment</sup>
@@ -475,7 +476,7 @@ ___
   개행이 될거예요.  
   왜냐하면 띄어쓰기를 두 번 했어요
   ```
-  ##### 결과
+  **결과**  
   개행이 안될거에요.
   왜냐하면 띄어쓰기를 안했으니까요.
   
@@ -495,7 +496,7 @@ ___
   단락3</br>
   단락4  
   ```
-  ##### 결과
+  **결과**  
   단락1
   단락2
   
