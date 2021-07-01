@@ -15,6 +15,11 @@
   - [테이블<sup>Tables</sup>](#테이블tables)
   - [목차<sup>Table of Content</sup>](#목차table-of-content)
   - [각주<sup>Footnote</sup>](#각주footnote)
+  - [이스케이프<sup>Backslash Escapes</sup>](#이스케이프backslash-escapes)
+  - [취소선<sup>Strikethrough</sup>](#취소선strikethrough)
+  - [이모티콘<sup>Emoji</sup>](#이모티콘emoji)
+  - [개행<sup>Line alignment</sup>](#개행line-alignment)
+  - [단락<sup>Paragraph</sup>](#단락paragraph)
   
 
 
@@ -449,9 +454,8 @@ ___
   :tada: :100:
   
 ### 개행<sup>Line alignment</sup>
-  ##### 방법
-  1. 개행하고 싶은 글의 마지막에 띄어쓰기 2회 입력
-  2. 2회 엔터 입력
+  개행하고 싶은 글의 마지막에 띄어쓰기 2회 입력
+  ##### 실행 코드
   ```
   개행이 안될거에요.
   왜냐하면 띄어쓰기를 안했으니까요.
@@ -459,16 +463,28 @@ ___
   개행이 될거예요.  
   왜냐하면 띄어쓰기를 두 번 했어요.
   ```
+  ##### 결과
   개행이 안될거에요.
   왜냐하면 띄어쓰기를 안했으니까요.
   
   개행이 될거예요.  
   왜냐하면 띄어쓰기를 두 번 했어요.
   
+### 단락<sup>Paragraph</sup>
+  단락을 나누고 싶은 곳에 두 번 Enter을 입력
+  ##### 실행 코드
+  ```
+  단락1
+  단락2
   
-::: tip
-팁
-:::
+  단락3
+  ```
+  ##### 결과
+  단락1
+  단락2
+  
+  단락3
+
   
     
     
