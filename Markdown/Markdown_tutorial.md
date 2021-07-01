@@ -192,7 +192,7 @@ ___
     + item 3-1
       + item 3-1-1
 
-## 이미지<sup>Images</sup>
+### 이미지<sup>Images</sup>
 - #### Link image
   이미지 오른쪽 마우스 클릭 -> 이미지 주소 복사 -> URL 입력
   ##### 실행 결과
@@ -220,21 +220,21 @@ ___
   ##### 결과
   [![Squirrel](./image/squirrel.webp)](http://github.com)
   
-## Blockquotes
-##### 실행 코드
-```
-As Kanye West said:
+### Blockquotes
+  ##### 실행 코드
+  ```
+  As Kanye West said:
 
-> We're living the future so
-> the present is our past.
-```
-##### 결과
-As Kanye West said:
+  > We're living the future so
+  > the present is our past.
+  ```
+  ##### 결과
+  As Kanye West said:
 
-> We're living the future so  
-> the present is our past.
+  > We're living the future so  
+  > the present is our past.
 
-## 첨자<sup>Script</sup>
+### 첨자<sup>Script</sup>
 - #### 위첨자<sup>Superscript</sup>
   ##### 실행 결과
   ```
@@ -250,7 +250,7 @@ As Kanye West said:
   ##### 결과
   문구<sub>아랫첨자</sub>
 
-## 코드<sup>Code</sup>
+### 코드<sup>Code</sup>
 - #### Inline code
   ##### 실행 코드
   ```
@@ -319,8 +319,25 @@ As Kanye West said:
     }
   }
   ```
-
-## 테이블<sup>Tables</sup>
+- #### 들여쓰기 코드<sup>Indented Code</sup>
+  ##### 조건
+    1. 띄어쓰기 4번 혹은 Tab 2번
+    2. 코드와 글 사이에 1행 이상의 간격이 필요
+  ##### 실행 코드
+  ```
+      function fancyAlert(arg) {
+        if(arg) {
+          $.facebox({div:'#foo'})
+        }
+      }
+  ```
+  ##### 결과
+      function fancyAlert(arg) {
+        if(arg) {
+          $.facebox({div:'#foo'})
+        }
+      }
+### 테이블<sup>Tables</sup>
 - #### 테이블 생성
   ##### 실행 코드
   ```
@@ -347,47 +364,111 @@ As Kanye West said:
   | Content 1 | Content 2 | content 3 |
   | Content 4 | Content 5 | content 6 |
 
-## 목차<sup>Table of Content</sup>
-  - #### 제목<sup>Header</sup> 참조
-    #####  조건
-    1. 특수 문자 (ex. ., <, /, ?, etc)와 tag (ex. `<div>`, `<sup>`, etc)는 무시
-    2. 띄어쓰기는 `-`로 작성  
-    3. 영어는 소문자만
-    4. Header의 #개수와 상관없이 링크의 #개수는 1개
-    5. #이 들어간 Header와 이름이 같으면서 위의 조건을 충족해야 함
-    ##### 실행 코드
-    ```
-    [제 목!<sup>1</sup>](#제-목1)
-    ```
-    [제 목<sup>1</sup>](#제-목1)
-  - #### ID 참조
-    ##### 실행 코드
-    ```
-    [제 목!<sup>2</sup>](#아이디)
-    ```
-    ##### 결과
-    [제 목<sup>2</sup>](#아이디)
+### 목차<sup>Table of Content</sup>
+- #### 제목<sup>Header</sup> 참조
+  #####  조건
+  1. 특수 문자 (ex. ., <, /, ?, etc)와 tag (ex. `<div>`, `<sup>`, etc)는 무시
+  2. 띄어쓰기는 `-`로 작성  
+  3. 영어는 소문자만
+  4. Header의 #개수와 상관없이 링크의 #개수는 1개
+  5. #이 들어간 Header와 이름이 같으면서 위의 조건을 충족해야 함
+  ##### 실행 코드
+  ```
+  [제 목!<sup>1</sup>](#제-목1)
+  ```
+  [제 목<sup>1</sup>](#제-목1)
+- #### ID 참조
+  ##### 실행 코드
+  ```
+  [제 목!<sup>2</sup>](#아이디)
+  ```
+  ##### 결과
+  [제 목<sup>2</sup>](#아이디)
+  
+- #### 참조되어질 내용
+  ##### 실행 코드
+  ```
+  ###### 제 목!<sup>1</sup>
+  <div id="아이디">제 목!<sup>2</sup></div>
+  ```
+  ##### 결과
+  ###### 제 목!<sup>1</sup>
+  <div id="아이디">제 목!<sup>2</sup></div>
     
-  - #### 참조되어질 내용
-    ##### 실행 코드
-    ```
-    ###### 제 목!<sup>1</sup>
-    <div id="아이디">제 목!<sup>2</sup></div>
-    ```
-    #### 결과
-    ###### 제 목!<sup>1</sup>
-    <div id="아이디">제 목!<sup>2</sup></div>
+### 각주<sup>Footnote</sup>
+  ※ Github는 [^id] 각주 기능을 지원하지 않음
+  ##### 실행 코드
+  ```
+  각주<sup>[1](#footnotes)</sup>
+  
+  <a name="footnotes">1</a>: 본문에 대하는 참조 문헌이나 본문의 낱말, 문장 등의 뜻을 알기 쉽게 풀이하는 덧붙이는 글
+  ```
+  ##### 결과
+  각주<sup>[1](#footnotes)</sup>
     
-    ## 각주<sup>Footnote</sup>
-    ※ Github는 [^id] 각주 기능을 지원하지 않음
-    ```
-    각주<sup>[1](#footnotes)</sup>
+  <a name="footnotes">1</a>: 본문에 대하는 참조 문헌이나 본문의 낱말, 문장 등의 뜻을 알기 쉽게 풀이하는 덧붙이는 글
     
-    <a name="footnotes">1</a>: 본문에 대하는 참조 문헌이나 본문의 낱말, 문장 등의 뜻을 알기 쉽게 풀이하는 덧붙이는 글
-    ```
-    각주<sup>[1](#footnotes)</sup>
-    
-    <a name="footnotes">1</a>: 본문에 대하는 참조 문헌이나 본문의 낱말, 문장 등의 뜻을 알기 쉽게 풀이하는 덧붙이는 글
-    
+### 요약<sup>Summary</sub>
+  접기 기능
+  ##### 실행 코드
+  ```
+  <details><summary>Click</summary>
+  요약 내용</details>
+  ```
+  ##### 결과
+  <details><summary>Click</summary>
+  요약 내용</details>
+
+### 이스케이프<sup>Backslash Escapes</sup>
+  *, _, \`와 같이 문법에 사용되는 문자 사용
+  ##### 실행 코드
+  ```
+  \*이텔리체\*
+  \_\_볼드체\_\_
+  \`\`\`
+  ```
+  ##### 결과
+  \*이텔리체\*
+  \_\_볼드체\_\_
+  \`\`\`
+  
+### 취소선<sup>Strikethrough</sup>
+  ##### 실행 코드
+  ```
+  ~~취소할래요~~
+  ```
+  ~~취소할래요~~
+
+### 이모티콘<sup>Emoji</sup>
+  더 많은 이모티콘을 알고 싶다면 [이 곳](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json)을 이용해주세요.
+  ##### 실행 코드
+  ```
+  :tada: :100:
+  ```
+  ##### 결과
+  :tada: :100:
+  
+### 개행<sup>Line alignment</sup>
+  ##### 방법
+  1. 개행하고 싶은 글의 마지막에 띄어쓰기 2회 입력
+  2. 2회 엔터 입력
+  ```
+  개행이 안될거에요.
+  왜냐하면 띄어쓰기를 안했으니까요.
+  
+  개행이 될거예요.  
+  왜냐하면 띄어쓰기를 두 번 했어요.
+  ```
+  개행이 안될거에요.
+  왜냐하면 띄어쓰기를 안했으니까요.
+  
+  개행이 될거예요.  
+  왜냐하면 띄어쓰기를 두 번 했어요.
+  
+  
+::: tip
+팁
+:::
+  
     
     
