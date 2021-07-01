@@ -91,7 +91,7 @@
   **This text will be bold**  
   __This will also be bold__
   
-- ### 이탤릭체<sup>italic</sup>
+- #### 이탤릭체<sup>italic</sup>
    
   ```
   *This text will be italic*
@@ -353,8 +353,8 @@
 - ### 들여쓰기 코드<sup>Indented Code</sup>
   
   **조건**
-    1. 띄어쓰기 4번 혹은 Tab 2번
-    2. 코드와 글 사이에 1행 이상의 간격이 필요  
+  1. 띄어쓰기 4번 혹은 Tab 2번
+  2. 코드와 텍스트 사이에 1행 이상의 간격이 필요  
     
 
   ```
@@ -492,7 +492,7 @@
   :tada: :100:
   
 ## 개행<sup>Line alignment</sup>
-  개행하고 싶은 글의 마지막에 띄어쓰기 2회 입력
+  개행하고 싶은 문장들 사이에 띄어쓰기 2회 입력
   ```
   개행이 안될거에요.
   왜냐하면 띄어쓰기를 안했으니까요
