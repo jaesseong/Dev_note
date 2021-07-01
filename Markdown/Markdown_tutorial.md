@@ -3,17 +3,17 @@
 목차
 ----
 - [마크다운<sup>Markdown</sup>이란?](#마크다운markdown이란)
-- [마크업 문법<sup>Markup Syntax</sup>](#마크업-문법supmarkup-syntaxsup)
-  - [제목<sup>Header</sup>](#제목supheadersup)
-  - [강조<sup>Emphasis</sup>](#강조supemphasissup)
-  - [수평선<sup>Horizontal Rules</sup>](#수평선suphorizontal-rulessup)
-  - [링크<sup>Links</sup>](#링크suplinkssup)
-  - [이미지<sup>Images</sup>](#이미지supimagessup)
+- [마크업 문법<sup>Markup Syntax</sup>](#마크업-문법markup-syntax)
+  - [제목<sup>Header</sup>](#제목header)
+  - [강조<sup>Emphasis</sup>](#강조emphasis)
+  - [수평선<sup>Horizontal Rules</sup>](#수평선horizontal-rules)
+  - [링크<sup>Links</sup>](#링크links)
+  - [이미지<sup>Images</sup>](#이미지images)
   - [Blockquotes](#blockquotes)
-  - [첨자<sup>Script</sup>](#첨자supscriptsup)
-  - [코드<sup>Code</sup>](#코드supcodesup)
-  - [테이블<sup>Tables</sup>](#테이블suptablessup)
-  - [목차<sup>Table of Content</sup>](#목차suptable-of-contentsup)
+  - [첨자<sup>Script</sup>](#첨자script)
+  - [코드<sup>Code</sup>](#코드code)
+  - [테이블<sup>Tables</sup>](#테이블tables)
+  - [목차<sup>Table of Content</sup>](#목차table-of-content)
   
 
 
@@ -349,7 +349,7 @@ As Kanye West said:
 ## 목차<sup>Table of Content</sup>
   - #### 제목<sup>Header</sup> 참조
     #####  조건
-    1. 특수 문자 (ex. ., <, /, ?)는 무시
+    1. 특수 문자 (ex. ., <, /, ?, etc)와 tag (ex. `<div>`, `<sup>`, etc)는 무시
     2. 띄어쓰기는 `-`로 작성  
     3. 영어는 소문자만
     4. #이 들어간 Header와 이름이 같으면서 위의 조건을 충족해야 함
