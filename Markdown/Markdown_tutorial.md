@@ -11,8 +11,10 @@
   - [이미지<sup>Images</sup>](#images)
   - [Blockquotes](#blockquotes)
 
+
 <div id="concept">마크다운<sup>Markdown</sup>이란?</div>
 ------------
+
 마크다운(markdown)은 2004년에 존 그루버와 에런 스워츠의 협업을 통해 만들어진 일반 텍스트 기반의 경량 마크업 언어이다.
 
 > #### 마크업 언어<sup>Markup Language</sup>란?
@@ -21,6 +23,7 @@
 <div id="syntax">마크업 문법<sup>Markup Syntax</sup></div>
 ----
 ### <div id="header">헤더<sup>Header</sup></div>
+
 - **h1** : 큰 제목, 문서 제목
   ```
   # This is an <h1> tag
