@@ -259,20 +259,3 @@ function fancyAlert(arg) {
   }
 }
 ```
-- 줄강조
-~~~
-``` javascript {2, 4}
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-~~~
-``` javascript {2, 4}
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
