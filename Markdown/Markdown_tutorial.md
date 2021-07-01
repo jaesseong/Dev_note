@@ -2,7 +2,7 @@
 ------------
 목차
 ----
-- [마크다운<sup>Markdown</sup>이란?](#마크다운-sup-markdown--sup-이란?)
+- [마크다운<sup>Markdown</sup>이란?](#마크다운-sup-markdown--sup-이란-)
 - [마크업 문법<sup>Markup Syntax</sup>](#마크업-문법-sup-markup-syntax--sup-)
   - [제목<sup>Header</sup>](#제목-sup-header--sup-)
   - [강조<sup>Emphasis</sup>](#강조-sup-emphasis--sup-)
