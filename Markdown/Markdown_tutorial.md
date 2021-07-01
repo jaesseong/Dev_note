@@ -2,17 +2,18 @@
 ------------
 목차
 ----
-- [마크다운<sup>Markdown</sup>이란?](#-마크다운-sup-markdown--sup-이란-)
-- [마크업 문법<sup>Markup Syntax</sup>](#마크업-문법-sup-markup-syntax--sup-)
-  - [제목<sup>Header</sup>](#제목-sup-header--sup-)
-  - [강조<sup>Emphasis</sup>](#강조-sup-emphasis--sup-)
-  - [수평선<sup>Horizontal Rules</sup>](#수평선-sup-horizontal-rules--sup-)
-  - [링크<sup>Links</sup>](#링크-sup-links--sup-)
-  - [이미지<sup>Images</sup>](#이미지-sup-images--sup-)
+- [마크다운<sup>Markdown</sup>이란?](#마크다운supmarkdownsup이란)
+- [마크업 문법<sup>Markup Syntax</sup>](#마크업-문법supmarkup-syntaxsup)
+  - [제목<sup>Header</sup>](#제목supheadersup)
+  - [강조<sup>Emphasis</sup>](#강조supemphasissup)
+  - [수평선<sup>Horizontal Rules</sup>](#수평선suphorizontal-rulessup)
+  - [링크<sup>Links</sup>](#링크suplinkssup)
+  - [이미지<sup>Images</sup>](#이미지supimagessup)
   - [Blockquotes](#blockquotes)
-  - [첨자<sup>Script</sup>](#첨자-sup-script--sup-)
-  - [코드<sup>Code</sup>](#코드-sup-code--sup-)
-  - [테이블<sup>Tables</sup>](#테이블-sup-tables--sup-)
+  - [첨자<sup>Script</sup>](#첨자supscriptsup)
+  - [코드<sup>Code</sup>](#코드supcodesup)
+  - [테이블<sup>Tables</sup>](#테이블suptablessup)
+  - [목차<sup>Table of Content</sup>](목차suptable-of-contentsup)
   
 
 
@@ -347,13 +348,16 @@ As Kanye West said:
 
 ## 목차<sup>Table of Content</sup>
   - #### 제목<sup>Header</sup> 참조
-    특수문자, 띄어쓰기 => -  
-    영어 => 소문자
+    #####  조건
+    1. 특수 문자 (ex. ., <, /, ?)는 무시
+    2. 띄어쓰기는 `-`로 작성  
+    3. 영어는 소문자만
+    4. #이 들어간 Header와 이름이 같으면서 위의 조건을 충족해야 함
     ##### 실행 코드
     ```
-    [제 목<sup>1</sup>](#제-목-sup-1--sup-)
+    [제 목<sup>1</sup>](#제-목sup1sup)
     ```
-    [제 목<sup>1</sup>](#제-목-sup-1--sup-)
+    [제 목<sup>1</sup>](#제-목sup1sup)
   - #### ID 참조
     ##### 실행 코드
     ```
@@ -365,11 +369,11 @@ As Kanye West said:
   - #### 참조되어질 내용
     ##### 실행 코드
     ```
-    ### 제 목<sup>1</sup>
+    ###### 제 목<sup>1</sup>
     <div id="아이디">제 목<sup>2</sup></div>
     ```
     #### 결과
-    ### 제 목<sup>1</sup>
+    ###### 제 목<sup>1</sup>
     <div id="아이디">제 목<sup>2</sup></div>
     
     
