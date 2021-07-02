@@ -94,7 +94,7 @@
     - 수정할 행 선택 및 수정 창 열기  
       <img src="./image/preprocessing_map_data_006.PNG" alt="preprocessing_map_data_006">
 
-    - 수정하기
+    - 데이터 수정하기
         1. 기존 필드를 갱신 선택
         2. SGG_NM 선택
         3. 문자열 -> right 더블 클릭
@@ -104,12 +104,12 @@
   
       <img src="./image/preprocessing_map_data_007.PNG" alt="preprocessing_map_data_007">
       
-  - 오류 데이터 삭제
-    1. GID가 253인 서초구 **이외**의 행을 모두 선택
-    2. 속성 테이블 끄기
-    3. 아래의 사진과 같이 오류 데이터와 일반 데이터의 색깔이 다르지 않으면 1번부터 다시
-      <img src="./image/preprocessing_map_data_008.PNG" alt="preprocessing_map_data_008">
-  
+    - 오류 데이터 삭제
+      1. GID가 253인 서초구 **이외**의 행을 모두 선택
+      2. 속성 테이블 끄기
+      3. 아래의 사진과 같이 오류 데이터와 일반 데이터의 색깔이 다르지 않으면 1번부터 다시
+        <img src="./image/preprocessing_map_data_008.PNG" alt="preprocessing_map_data_008">
+    
   - 전처리 완료한 데이터를 저장하기  
     1. ![서울 지도 파일](./image/preprocessing_map_data_009.PNG) 오른쪽 클릭 -> 내보내기 -> 선택한 객체 다른 이름으로 저장
     2. 포멧(a) -> ESRI shapefile 선택
@@ -130,7 +130,7 @@
 - 설정
   1. 파일 -> 옵션 및 설정 -> 옵션 -> 미리 보기 기능
   2. 도형 맵 시각화 체크 -> 확인
-  3. Power BI restart -> ![Model Map](./image/visualization_001.PNG) 유무 확인
+  3. Power BI restart -> ![Model Map](./image/visualization_001.png) 유무 확인
   
 ## 모형 맵<sup>Model Map</sup>
   - 설정
@@ -146,6 +146,27 @@
     
     <img src="./image/visualization_003.gif" alt="Change Color of Model Map">
     
+## 카드<sup>Card</sup>
+  
+  - 설정
+    1. ![Card](./image/visualization_004.png)를 선택
+    2. 값에 `falling` 또는 `rising` 데이터 필드 추가
+    3. 데이터 필드의 값의 측정 방식을 합계에서 평균으로 변경
+    
+  <img src="./image/visualization_005.gif" alt="Change Color of Model Map">
+
+## 묶은 세로 막대형 차트
+  
+  - 설정
+    1. ![BarChart](./image/visualization_006.png)를 선택
+    2. 축에 `age` 데이터 필드 추가
+    3. 값에 `falling` 또는 `rising` 데이터 필드 추가
+    
+  - 서식 바꾸기
+    1. 서식 -> 데이터 색 -> 모두 표시 설정으로 변경
+    2. 축 별로 원하는 색상으로 변경 
+    
+  <img src="./image/visualization_007.gif" alt="Bar_Chart">
   
   
     
