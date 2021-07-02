@@ -135,9 +135,10 @@
       3. Power BI restart -> ![Model Map](./image/visualization_001.png) 유무 확인
   
   - 설정
-    1. 위치에 sigungu 데이터 필드 추가
-    2. 색 채도에 cgi 데이터 필드 추가
-    3. 서식 -> 도형 -> 맵 추가 -> QGIS를 통해 전처리한 JSON 지도 데이터 불러오기
+    1. ![Model Map](./image/visualization_001.png)를 선택
+    2. 위치에 sigungu 데이터 필드 추가
+    3. 색 채도에 cgi 데이터 필드 추가
+    4. 서식 -> 도형 -> 맵 추가 -> QGIS를 통해 전처리한 JSON 지도 데이터 불러오기
   
     <img src="./image/visualization_002.gif" alt="Setting Model Map">
     
