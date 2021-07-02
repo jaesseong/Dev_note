@@ -12,35 +12,30 @@
 # Power BI 튜토리얼
   ## csv 데이터 가져오기 
   - [포스트 코로나 데이터](https://dacon.io/competitions/official/235618/overview/description) 다운로드 
-    <div align="center">
-      <img src="./image/import_csv_data_001.PNG" alt="import_csv_data_001">
-      <img src="./image/import_csv_data_002.PNG" alt="import_csv_data_002">
-    </div>
+    
+    <img src="./image/import_csv_data_001.PNG" alt="import_csv_data_001">
+    <img src="./image/import_csv_data_002.PNG" alt="import_csv_data_002">
+    
   
   - Power BI로 Index.csv 파일 불러오기
   
-    <div align="center">  
-      <img src="./image/import_csv_data_003.PNG" alt="import_csv_data_003">
-      <img src="./image/import_csv_data_004.PNG" alt="import_csv_data_004">
-      <img src="./image/import_csv_data_005.PNG" alt="import_csv_data_005">
-    </div>
+    <img src="./image/import_csv_data_003.PNG" alt="import_csv_data_003">
+    <img src="./image/import_csv_data_004.PNG" alt="import_csv_data_004">
+    <img src="./image/import_csv_data_005.PNG" alt="import_csv_data_005">
+
   
   ## csv 데이터 전처리
    
   - 새 열 만들기
     1. 데이터 창으로 이동
     2. 새 열 추가
-    
-    <div align="center">
-      <img src="./image/preprocessing_csv_data_001.PNG" alt="preprocessing_csv_data_001">
-    </div>  
+  
+    <img src="./image/preprocessing_csv_data_001.PNG" alt="preprocessing_csv_data_001"> 
     
     3. 새 열의 값을 생성하기위해 컬럼명 클릭
     4. 값을 생성하기 위한 해당하는 함수를 입력  
-      
-    <div align="center">  
-      <img src="./image/preprocessing_csv_data_002.PNG" alt="preprocessing_csv_data_002">
-    </div>
+    
+    <img src="./image/preprocessing_csv_data_002.PNG" alt="preprocessing_csv_data_002">
   
   
   - 새 열의 값 생성하기 (**④**에 입력)
@@ -56,9 +51,8 @@
       
           day = [year]&"-"&[month]
       
-      <div align="center">
-          <img src="./image/preprocessing_csv_data_003.PNG" alt="preprocessing_csv_data_003">
-      </div>
+        <img src="./image/preprocessing_csv_data_003.PNG" alt="preprocessing_csv_data_003">
+
     
     * rising_falling 열
       
@@ -75,35 +69,31 @@
   
   ## 지도 데이터 가져오기
   [행정구역 데이터](http://data.nsdi.go.kr/dataset/15144)
-  <div align="center">
-      <img src="./image/import_map_data_001.PNG" alt="import_map_data_001">
-  </div>  
+
+  <img src="./image/import_map_data_001.PNG" alt="import_map_data_001">
+
   
   ## 지도 데이터 전처리
   
   - 지도 데이터 [QGIS](../QGIS/qgis_tutorial.md)로 불러오기
     - 레이어 -> 레이어 추가 -> 벡터 레이어 추가
-      <div align="center">
-          <img src="./image/preprocessing_map_data_001.PNG" alt="preprocessing_map_data_001">
-      </div> 
+      
+      <img src="./image/preprocessing_map_data_001.PNG" alt="preprocessing_map_data_001">
+
       
     - 지도 파일 열기
     
-      <div align="center">    
-          <img src="./image/preprocessing_map_data_002.PNG" alt="preprocessing_map_data_002">
-          <img src="./image/preprocessing_map_data_003.PNG" alt="preprocessing_map_data_003">
-          <img src="./image/preprocessing_map_data_004.PNG" alt="preprocessing_map_data_004">
-      </div>  
+      <img src="./image/preprocessing_map_data_002.PNG" alt="preprocessing_map_data_002">
+      <img src="./image/preprocessing_map_data_003.PNG" alt="preprocessing_map_data_003">
+      <img src="./image/preprocessing_map_data_004.PNG" alt="preprocessing_map_data_004">
+  
     
   - csv에 있는 값과 매칭하기 위해 값 수정하기
     - 속성 테이블 열기
-      <div align="center">
-          <img src="./image/preprocessing_map_data_005.PNG" alt="preprocessing_map_data_005">
-      </div>
+      <img src="./image/preprocessing_map_data_005.PNG" alt="preprocessing_map_data_005">
     - 수정할 행 선택 및 수정 창 열기  
-      <div align="center">
-          <img src="./image/preprocessing_map_data_006.PNG" alt="preprocessing_map_data_006">
-      </div>
+      <img src="./image/preprocessing_map_data_006.PNG" alt="preprocessing_map_data_006">
+
     - 수정하기
         1. 기존 정보 갱신 선택
         2. SGG_NM 선택
@@ -111,9 +101,8 @@
         4. 필드와 값 -> SGG_NM 더블 클릭
         5. `right("SGG_NM", 3)` 코드 작성
         6. 확인
-      <div align="center">    
-          <img src="./image/preprocessing_map_data_007.PNG" alt="preprocessing_map_data_007">
-      </div> 
+  
+      <img src="./image/preprocessing_map_data_007.PNG" alt="preprocessing_map_data_007">
     
     
     
