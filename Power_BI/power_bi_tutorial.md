@@ -127,12 +127,13 @@
     
 # 시각화
 
-- 설정
-  1. 파일 -> 옵션 및 설정 -> 옵션 -> 미리 보기 기능
-  2. 도형 맵 시각화 체크 -> 확인
-  3. Power BI restart -> ![Model Map](./image/visualization_001.png) 유무 확인
-  
 ## 모형 맵<sup>Model Map</sup>
+
+  - 모형 맵 시각화 옵션 변경
+      1. 파일 -> 옵션 및 설정 -> 옵션 -> 미리 보기 기능
+      2. 도형 맵 시각화 체크 -> 확인
+      3. Power BI restart -> ![Model Map](./image/visualization_001.png) 유무 확인
+  
   - 설정
     1. 위치에 sigungu 데이터 필드 추가
     2. 색 채도에 cgi 데이터 필드 추가
@@ -153,7 +154,7 @@
     2. 값에 `falling` 또는 `rising` 데이터 필드 추가
     3. 데이터 필드의 값의 측정 방식을 합계에서 평균으로 변경
     
-  <img src="./image/visualization_005.gif" alt="Change Color of Model Map">
+    <img src="./image/visualization_005.gif" alt="Change Color of Model Map">
 
 ## 묶은 세로 막대형 차트
   
@@ -164,9 +165,9 @@
     
   - 서식 바꾸기
     1. 서식 -> 데이터 색 -> 모두 표시 설정으로 변경
-    2. 축 별로 원하는 색상으로 변경 
+    2. 축 별로 원하는 색상으로  
     
-  <img src="./image/visualization_007.gif" alt="Bar_Chart">
+    <img src="./image/visualization_007.gif" alt="Bar_Chart">
   
   
     
