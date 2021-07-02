@@ -68,7 +68,7 @@
     
   
   ## 지도 데이터 가져오기
-  [행정구역 데이터](http://data.nsdi.go.kr/dataset/15144)
+  [지도 데이터](http://data.nsdi.go.kr/dataset/15144) 다운로드
 
   <img src="./image/import_map_data_001.PNG" alt="import_map_data_001">
 
@@ -124,6 +124,30 @@
     3. Export
     <img src="./image/preprocessing_map_data_011.PNG" alt="preprocessing_map_data_011">
     4. TopoJSON 선택 -> Export
+    
+# 시각화
+
+- 설정
+  1. 파일 -> 옵션 및 설정 -> 옵션 -> 미리 보기 기능
+  2. 도형 맵 시각화 체크 -> 확인
+  3. Power BI restart -> ![Model Map](./image/visualization_001.PNG) 유무 확인
+  
+## 모형 맵<sup>Model Map</sup>
+  - 설정
+    1. 위치에 sigungu 데이터 필드 추가
+    2. 색 채도에 cgi 데이터 필드 추가
+    3. 서식 -> 도형 -> 맵 추가 -> QGIS를 통해 전처리한 JSON 지도 데이터 불러오기
+  
+    <img src="./image/visualization_002.gif" alt="Setting Model Map">
+    
+  - 서식 바꾸기
+    1. 데이터 색 -> 분기 설정으로 변경
+    2. 최소값 - 빨강, 가운데 - 햐양 변경
+    
+    <img src="./image/visualization_003.gif" alt="Change Color of Model Map">
+    
+  
+  
     
     
     
