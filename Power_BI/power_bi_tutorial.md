@@ -123,7 +123,7 @@
     2. 저장한 5개의 파일을 Drag & Drop -> Import
     3. Export
     <img src="./image/preprocessing_map_data_011.PNG" alt="preprocessing_map_data_011">
-    4. TopoJson 선택 -> Export
+    4. TopoJSON 선택 -> Export
     
     
     
