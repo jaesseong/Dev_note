@@ -95,7 +95,7 @@
       <img src="./image/preprocessing_map_data_006.PNG" alt="preprocessing_map_data_006">
 
     - 수정하기
-        1. 기존 정보 갱신 선택
+        1. 기존 필드를 갱신 선택
         2. SGG_NM 선택
         3. 문자열 -> right 더블 클릭
         4. 필드와 값 -> SGG_NM 더블 클릭
@@ -103,6 +103,27 @@
         6. 확인
   
       <img src="./image/preprocessing_map_data_007.PNG" alt="preprocessing_map_data_007">
+      
+  - 오류 데이터 삭제
+    1. GID가 253인 서초구 **이외**의 행을 모두 선택
+    2. 속성 테이블 끄기
+    3. 아래의 사진과 같이 오류 데이터와 일반 데이터의 색깔이 다르지 않으면 1번부터 다시
+      <img src="./image/preprocessing_map_data_008.PNG" alt="preprocessing_map_data_008">
+  
+  - 전처리 완료한 데이터를 저장하기  
+    1. ![서울 지도 파일](./image/preprocessing_map_data_009.PNG) 오른쪽 클릭 -> 내보내기 -> 선택한 객체 다른 이름으로 저장
+    2. 포멧(a) -> ESRI shapefile 선택
+    3. (b)를 선택하여 위치와 파일명(명칭_좌표계번호) 지정
+    4. (c)로 좌표계를 기본 좌표(4326)으로 설정
+      <img src="./image/preprocessing_map_data_010.PNG" alt="preprocessing_map_data_010">
+    5. 확인
+    
+  - 파일 형식 변경하기
+    1. [mapshaper](https://mapshaper.org/)에 접속
+    2. 저장한 5개의 파일을 Drag & Drop -> Import
+    3. Export
+    <img src="./image/preprocessing_map_data_011.PNG" alt="preprocessing_map_data_011">
+    4. TopoJson 선택 -> Export
     
     
     
