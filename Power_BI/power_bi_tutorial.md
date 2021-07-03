@@ -169,6 +169,22 @@
     2. 축 별로 원하는 색상으로  
     
     <img src="./image/visualization_007.gif" alt="Bar_Chart">
+    
+## ChicletSlicer
+  
+  :x: Pro계정만 사용할 수 있습니다.
+  
+  - 설정
+    1. ![addvisualization](./image/visualization_008.png)를 선택
+    2. 더 많은 객체 가져오기 -> chicletslicer을 검색 -> 다운로드
+    3. ![chicletslicer](./image/visualization_009.png)를 선택
+    4. 범주에 catm 데이터 필드를 추가
+    
+  - 서식
+    1. 서식 -> 일반
+    2. 원하는 열과 행의 개수로 변경
+    
+    <img src="./image/visualization_010.gif" alt="ChicletSlicer">
   
   
     
