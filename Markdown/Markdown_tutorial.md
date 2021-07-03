@@ -14,6 +14,7 @@
   - [코드<sup>Code</sup>](#코드code)
   - [테이블<sup>Tables</sup>](#테이블tables)
   - [목차<sup>Table of Content</sup>](#목차table-of-content)
+  - [요약<sup>Summary</sub>](#요약supsummarysub)
   - [각주<sup>Footnote</sup>](#각주footnote)
   - [이스케이프<sup>Backslash Escapes</sup>](#이스케이프backslash-escapes)
   - [취소선<sup>Strikethrough</sup>](#취소선strikethrough)
