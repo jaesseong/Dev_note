@@ -9,7 +9,7 @@
   - [수평선<sup>Horizontal Rules</sup>](#수평선horizontal-rules)
   - [링크<sup>Links</sup>](#링크links)
   - [이미지<sup>Images</sup>](#이미지images)
-  - [Blockquotes](#blockquotes)
+  - [인용<sup>Blockquotes</sup>](#인용blockquotes)
   - [첨자<sup>Script</sup>](#첨자script)
   - [코드<sup>Code</sup>](#코드code)
   - [테이블<sup>Tables</sup>](#테이블tables)
@@ -243,7 +243,7 @@
   
   <img src="./image/squirrel.webp" width="40%" height="30%" title="가변 크기 설정" alt="다람쥐"></img>
   
-## Blockquotes
+## 인용<sup>Blockquotes</sup>
   
   ```
   As Kanye West said:
