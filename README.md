@@ -9,3 +9,6 @@ Today I Learned
 |[PandasGUI Tutorial](./PandasGUI/PandasGUI_Tutorial.ipynb) | 2021/07/05 | 2021/07/05 |
 |[[GIS]Geopandas Tutorial](./[GIS]Geopandas/[GIS]Geopandas.ipynb) | 2021/07/06 | 2021/07/14 |
 |[Multiprocessing](./Multiprocessing/Multiprocessing_tutorial.md)| 2021/07/10 | 2021/07/10 |
+|[Machine Learning](./Machine_Learning/Machine_learning_tutorial.md) | 2021/07/14 | 2021/07/17 |
+|[Clustering](./Machine_Learning/Clustering/clustering_tutorial.ipynb) | 2021/07/16 | 2021/07/19 |
+|[NLP](./Machine_Learning/RNN/NLP.ipynb) | 2021/07/19 | 2021/07/20 |
